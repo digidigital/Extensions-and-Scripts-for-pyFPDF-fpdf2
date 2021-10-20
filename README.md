@@ -111,6 +111,8 @@ Gives you:
 
 ![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Transparency-for-pyFPDF-fpdf2/main/result.jpg)
 
+The generated PDF is exported as PDF version 1.4. It may not comply with the PDF standard in all respects. 
+
 ### The script is the answer for:
 * How to create a PDF with transparent text in Python?
 * How to add images with alpha/transparency in pyFPDF?
