@@ -111,7 +111,7 @@ Gives you:
 
 ![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Transparency-for-pyFPDF-fpdf2/main/result.jpg)
 
-### The above script is the answer for:
+### The script is the answer for:
 * How to create a PDF with transparent text in Python?
 * How to add images with alpha/transparency in pyFPDF?
 * How to add dynamic transparent overlay / stamps to PDF documents?
