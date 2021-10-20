@@ -1,6 +1,8 @@
 # Transparency for pyFPDF (fpdf2)
 This script gives transparency support. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
 
+Tested with fpdf2 2.4.5, Pillow 8.3.1 & Python 3.8.10
+
 ## Usage
 
 Just put AlphaFPDF.py in your project directory
@@ -104,5 +106,9 @@ pdf.output("demo.pdf")
 ```
 
 Gives you:
-
 ![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Transparency-for-pyFPDF-fpdf2/main/result.jpg)
+
+### The above script is the answers for:
+* How to create a PDF with transparent text in Python?
+* How to add images with alpha/transparency in pyFPDF?
+* How to add dynamic transparent overlay / stamps to PDF documents?
