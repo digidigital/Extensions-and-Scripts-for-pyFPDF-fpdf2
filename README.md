@@ -1,4 +1,4 @@
-# Transparency-for-pyFPDF-fpdf2-
+# Transparency for pyFPDF (fpdf2)
 This script gives transparency support. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
 
 ##Usage
@@ -105,4 +105,4 @@ pdf.output("demo.pdf")
 
 Gives you:
 
-![Transparent text, images and drawings in pyFPDF](https://myoctocat.com/assets/images/base-octocat.svg)
+![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Transparency-for-pyFPDF-fpdf2/main/result.jpg)
