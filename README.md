@@ -1,7 +1,7 @@
 # Transparency for pyFPDF (fpdf2)
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
 
-Tested with fpdf2 2.4.5, Pillow 8.3.1 & Python 3.8.10
+Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
 ## Usage
 
