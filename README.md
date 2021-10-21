@@ -25,6 +25,8 @@ class AlphaFPDF (FPDF):
     #          Normal, Multiply, Screen, Overlay, Darken, Lighten, ColorDodge, ColorBurn,
     #          HardLight, SoftLight, Difference, Exclusion, Hue, Saturation, Color, Luminosity
     def set_alpha(self, alpha, bm='Normal'):
+        if alpha < 0: alpha=0
+        if alpha > 1: alpha=1
         # set alpha for stroking (CA) and non-stroking (ca) operations
         gs = self.add_ext_gs_state({'ca':alpha, 'CA':alpha, 'BM':'/' + bm})
         self.set_ext_gs_state(gs)
