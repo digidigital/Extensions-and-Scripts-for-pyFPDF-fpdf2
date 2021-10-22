@@ -5,7 +5,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
 ## Usage
 
-Just put AlphaFPDF.py in your project directory
+Just put PDFStar.py in your project directory ans import it.
 
 ```python
 #!/usr/bin/python3
