@@ -3,8 +3,8 @@
 This repository provides you with [FPDF Scripts](http://fpdf.org/en/script/) ported from PHP to Python.
 
 **Scripts**
-* [Alpha / Transparency](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/tree/main/alpha)
-* [Transform & Circular Text](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/tree/main/transform) 
+* [Alpha / Transparency](https://github.com/digidigital/TExtensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/TExtensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
+* [Transform & Circular Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
 
 # Alpha / Transparency for pyFPDF (fpdf2)
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
@@ -119,7 +119,7 @@ pdf.output("demo.pdf")
 
 Gives you:
 
-![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Transparency-for-pyFPDF-fpdf2/main/alpha/result.jpg)
+![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/alpha/result.jpg)
 
 The generated PDF is exported as PDF version 1.4. It may not comply with the PDF standard in all respects. 
 
@@ -603,6 +603,6 @@ pdf.output("./demo.pdf")
 
 The result should look like this:
 
-![Transform, rotate, shear, mirror text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Transparency-for-pyFPDF-fpdf2/main/transform/transform.jpg)
+![Transform, rotate, shear, mirror text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/transform/transform.jpg)
 
-![circular round text in pyFPDF](https://raw.githubusercontent.com/digidigital/Transparency-for-pyFPDF-fpdf2/main/transform/circular_text.jpg)
+![circular round text in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/transform/circular_text.jpg)
