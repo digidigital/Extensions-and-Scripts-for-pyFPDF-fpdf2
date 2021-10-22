@@ -5,7 +5,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
 ## Example
 
-![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/star/demo.jpg)
+![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/sector/demo.jpg)
 
 [PDF file](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/sector/demo.pdf)
 
