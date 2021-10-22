@@ -3,7 +3,7 @@
 This repository provides you with [FPDF Scripts](http://fpdf.org/en/script/) ported from PHP to Python.
 
 **Scripts**
-* [Alpha / Transparency](https://github.com/digidigital/TExtensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/TExtensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
+* [Alpha / Transparency](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
 * [Transform & Circular Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
 
 # Alpha / Transparency for pyFPDF (fpdf2)
