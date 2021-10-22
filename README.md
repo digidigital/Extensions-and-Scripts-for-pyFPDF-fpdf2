@@ -1,4 +1,4 @@
-# Extensions /Scripts for pyFPDF (fpdf2)
+# Extensions / Scripts for pyFPDF (fpdf2)
 
 This repository provides you with [FPDF Scripts](http://fpdf.org/en/script/) ported from PHP to Python.
 
