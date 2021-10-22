@@ -4,6 +4,13 @@ This script adds transfromation featurea ans support for circular text to pyFPDF
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
+## Example
+![Transform, rotate, shear, mirror text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/transform/transform.jpg)
+
+![circular round text in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/transform/circular_text.jpg)
+
+[PDF file](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/transform/demo.pdf)
+
 ## Usage
 
 Just put PDFTransform.py in your project directory
@@ -470,9 +477,3 @@ pdf.text(15, 220, 'pdf.circular_text(float x, float y, float r, str text [, str 
 
 pdf.output("./demo.pdf")
 ```
-
-The result should look like this:
-
-![Transform, rotate, shear, mirror text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/transform/transform.jpg)
-
-![circular round text in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/transform/circular_text.jpg)
