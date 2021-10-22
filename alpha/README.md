@@ -3,6 +3,12 @@ This script adds transparency support to pyFPDF. You can set the alpha channel f
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
+## Example
+
+![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/alpha/result.jpg)
+
+![PDF File](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/alpha/demo.pdf)
+
 ## Usage
 
 Just put AlphaFPDF.py in your project directory
@@ -108,10 +114,6 @@ pdf.text(46,68,'On top of Image')
 
 pdf.output("demo.pdf")
 ```
-
-Gives you:
-
-![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/alpha/result.jpg)
 
 The generated PDF is exported as PDF version 1.4. It may not comply with the PDF standard in all respects. 
 
