@@ -3,6 +3,11 @@ This script draws a star.
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
+## Example
+![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/star/demo.jpg)
+
+[PDF file](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/star/demo.pdf)
+
 ## Usage
 
 Just put PDFStar.py in your project directory and import it.
@@ -89,8 +94,3 @@ pdf.star(100,240,40,15,5,'F')
 
 pdf.output('demo.pdf')
 ```
-
-Gives you:
-
-![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/star/demo.jpg)
-
