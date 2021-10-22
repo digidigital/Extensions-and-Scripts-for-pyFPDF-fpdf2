@@ -3,8 +3,8 @@
 This repository provides you with [FPDF Scripts](http://fpdf.org/en/script/) ported from PHP to Python.
 
 **Scripts**
-* [Alpha / Transparency](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) 
-* [Transform & Circular Text](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) 
+* [Alpha / Transparency](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/tree/main/alpha)
+* [Transform & Circular Text](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Transparency-for-pyFPDF-fpdf2/tree/main/transform) 
 
 # Alpha / Transparency for pyFPDF (fpdf2)
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
