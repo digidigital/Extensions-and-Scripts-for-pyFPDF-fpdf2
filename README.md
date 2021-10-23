@@ -5,12 +5,12 @@ This repository contains some of the original [FPDF PHP Scripts](http://fpdf.org
 **Scripts**
 * [Alpha / Transparency](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
 * [Transform & Circular Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
-* [Diagrams]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/diagrams)
-* [Javascript support]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/javascript)
-* [Rectangles with rounded corners]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/roundedCorners)
-* [Draw sectors of circles]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/sector)
-* [Draw star shapes]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/star)
-* [Restrict elements to be displayed on screen / printed only]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/visibility)
+* [Diagrams](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#diagrams-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/diagrams)
+* [Javascript support](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#embed-javascript-in-pdf-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/javascript)
+* [Rectangles with rounded corners](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#rectangle-with-rounded-corners-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/roundedCorners)
+* [Draw segments of circles](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#sectors-of-circle-shapes-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/sector)
+* [Draw star shapes](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#star-shape-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/star)
+* [Restrict elements to be displayed on screen / printed only](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#visibility-feature-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/visibility)
 
 # Alpha / Transparency for pyFPDF (fpdf2)
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
@@ -84,7 +84,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/roundedCorners)
 
 # Sectors of circle shapes for pyFPDF (fpdf2)
-This script allows to draw the sector of a circle. It can be used for example to render a pie chart.
+This script allows to draw segments of a circle. It can be used to render a pie chart.
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
