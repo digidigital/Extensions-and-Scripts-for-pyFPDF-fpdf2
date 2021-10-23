@@ -176,7 +176,6 @@ class PDFGradients(FPDF):
              self._out('/Sh' + str(gradNo) + ' ' + str(grad['id']) + ' 0 R')
         self._out('>>')
     
-
     def _putresources(self):
         self._putshaders()
         super()._putresources()
