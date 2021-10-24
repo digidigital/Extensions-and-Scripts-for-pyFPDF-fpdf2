@@ -47,20 +47,9 @@ class PDFMark(AlphaFPDF):
             
 
     def header(self):
-        try: 
-            super().header()
-        except:
-            pass
+        super().header()
         self._mark(self._watermark_data)
 
     def footer(self):
-        try: 
-            super().footer()
-        except:
-            pass
+        super().footer()
         self._mark(self._stamp_data)
-
-
-
-
-
