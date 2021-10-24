@@ -42,7 +42,7 @@ class PDFMark(AlphaFPDF):
             
             #set alpha back to opaque
             self.set_alpha(1)
-            #store old coordinates
+            #restore old coordinates
             self.set_xy(old_X,old_y)
             
 
