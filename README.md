@@ -12,7 +12,7 @@ This repository contains some of the original [FPDF PHP Scripts](http://fpdf.org
 * [Draw star shapes](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#star-shape-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/star)
 * [Restrict elements to be displayed on screen / printed only](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#visibility-feature-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/visibility)
 * [Gradients](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#linear-radial-and-multi-color-gradients-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/gradiens)
-* [Stamp and Watermark]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/stamp_and_watermark)
+* [Stamp and Watermark](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#stamp-and-watermark-pdf-files-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/stamp_and_watermark)
 
 # Alpha / Transparency for pyFPDF (fpdf2)
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
