@@ -59,18 +59,12 @@ class PDFMark(AlphaFPDF):
             #store old coordinates
             self.set_xy(old_X,old_y)
             
-    def header(self):
-        try: 
-            super().header()
-        except:
-            pass
+    def header(self): 
+        super().header()
         self._mark(self._watermark_data)
 
     def footer(self):
-        try: 
-            super().footer()
-        except:
-            pass
+        super().footer()
         self._mark(self._stamp_data)
 ```
 
