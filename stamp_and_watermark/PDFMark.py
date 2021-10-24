@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-# Ported from PHP to Python / pyFPDF2 in 2021 by Björn Seipel
-# Original Author: Martin Hall-May
-# License: FPDF 
-# http://www.fpdf.org/en/script/script74.php
+# Author: Björn Seipel
+# License: MIT
 
 from AlphaFPDF import AlphaFPDF
 
@@ -42,10 +40,9 @@ class PDFMark(AlphaFPDF):
             
             #set alpha back to opaque
             self.set_alpha(1)
-            #restore old coordinates
+            #store old coordinates
             self.set_xy(old_X,old_y)
             
-
     def header(self):
         super().header()
         self._mark(self._watermark_data)
