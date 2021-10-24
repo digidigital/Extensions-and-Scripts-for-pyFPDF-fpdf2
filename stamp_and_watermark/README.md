@@ -88,7 +88,7 @@ to add an overlay to all pages ***including*** the current one.
 * x: x-coordinate
 * y: y-coordinate
 * angle: The angle used to rotate the text
-* alpha: A Float defining the transparency of a stamp. A value between 0 and 1 (0=transparent, 1=opaque) 
+* alpha: A float defining the transparency of a stamp. A value between 0 and 1 (0=transparent, 1=opaque) 
 * text_color: A list with three values between 0 and 255 \[red,green,blue])
 * font: String with one of the installed fonts
 * font_size: The font size
