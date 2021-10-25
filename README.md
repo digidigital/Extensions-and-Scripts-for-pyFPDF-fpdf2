@@ -1,6 +1,10 @@
 # Extensions / Scripts for pyFPDF (fpdf2)
 
-This repository contains some of the original [FPDF PHP Scripts](http://fpdf.org/en/script/) scripts that were ported to Python to be used in conjunction with fpdf2.
+This repository contains some of the original [FPDF PHP Scripts](http://fpdf.org/en/script/) that were ported to Python to be used in conjunction with fpdf2 (as well as some new scripts).
+
+My main goal was on translating the scripts 1:1 without a focus on "pythonic elegance" or optimizations. 
+
+Some of the functions demonstrated in these scripts have already found their way into fpdf2. Whenever possible, you should use the alternatives implemented in [fpdf2](https://pyfpdf.github.io/fpdf2/index.html). On the other hand, some functions in the scripts may work (slightly) different and add value to your projects or adress edge cases. 
 
 **Scripts**
 * [Alpha / Transparency](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
