@@ -23,12 +23,11 @@ Just put PDFJavascript.py in your project directory
 # License: FPDF 
 # http://www.fpdf.org/en/script/script36.php
 
-from fpdf import FPDF
+from fpdf import FPDF, util
 
 class PDFJavascript(FPDF):
 
     _javascript=''
-    #_n_js=0
 
     def include_js(self, script, isUTF8=False): 
         self._javascript=str(script)
@@ -43,7 +42,7 @@ class PDFJavascript(FPDF):
         self._newobj()
         self._out('<<')
         self._out('/S /JavaScript')
-        self._out('/JS (' + self._escape(self.normalize_text(self._javascript)) + ')' )
+        self._out('/JS (' + util.escape_parens(self.normalize_text(self._javascript)) + ')' )
         self._out('>>')
         self._out('endobj')
 
@@ -55,15 +54,7 @@ class PDFJavascript(FPDF):
     def _putcatalog(self): 
         super()._putcatalog()
         if len(self._javascript)>0: 
-            self._out('/Names <</JavaScript ' + str((self._n_js)) + ' 0 R>>')
-
-    def _escape(self, string):
-        # Escape special characters
-        string=string.replace('\\','\\\\')
-        string=string.replace('(','\\(')
-        string=string.replace(')','\\)')
-        string=string.replace('\r','\\r')
-        return string
+            self._out('/Names <</JavaScript ' + str(self._n_js) + ' 0 R>>')
 ```
 
 Import the script and use pyFPDF as usual.
