@@ -8,6 +8,7 @@ Some of the functions demonstrated in these scripts have already found their way
 
 **Scripts**
 * [Alpha / Transparency](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
+* [Masking images / Alpha channel]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/masking_image/)
 * [Transform & Circular Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
 * [Diagrams](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#diagrams-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/diagrams)
 * [Javascript support](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#embed-javascript-in-pdf-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/javascript)
@@ -32,6 +33,21 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
+
+# Masking images / Alpha channel
+This script exposes the feature to add transpareny to an image by supplying a separate PNG image (called a soft mask).
+
+Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
+
+## Example
+
+![Soft Mask](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/masking_image/demo.png)
+
+![PDF File](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/masking_image/demo.pdf)
+
+## Get the code
+
+[Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/masking_image/) 
 
 # Transform & Circular Text
 This script adds transfromation featurea ans support for circular text to pyFPDF. 
