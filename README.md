@@ -8,7 +8,7 @@ Some of the functions demonstrated in these scripts have already found their way
 
 **Scripts**
 * [Alpha / Transparency](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
-* [Masking images / Alpha channel]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/masking_image/)
+* [Masking images / Alpha channel](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#masking-images--alpha-channel) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/masking_image/)
 * [Transform & Circular Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
 * [Diagrams](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#diagrams-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/diagrams)
 * [Javascript support](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#embed-javascript-in-pdf-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/javascript)
