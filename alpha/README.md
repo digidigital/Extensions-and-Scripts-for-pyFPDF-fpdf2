@@ -49,7 +49,7 @@ class AlphaFPDF (FPDF):
     def _enddoc(self):
         if len(self._extgstates) > 0 and float(self.pdf_version) < float(1.4):
             self.pdf_version='1.4'
-        FPDF._enddoc(self)
+        super()._enddoc(self)
     
     def _putextgstates(self):
         for i in range (1, len(self._extgstates)+1):
@@ -64,7 +64,7 @@ class AlphaFPDF (FPDF):
             self._out('endobj')
     
     def _putresourcedict(self):
-        FPDF._putresourcedict(self)
+        super()._putresourcedict(self)
         self._out('/ExtGState <<')
         for k, extgstate in zip(self._extgstates.keys(), self._extgstates.values()):
             self._out('/GS' + str(k) + ' ' + str(extgstate['n']) + ' 0 R')
@@ -73,7 +73,7 @@ class AlphaFPDF (FPDF):
                 
     def _putresources(self):
         self._putextgstates()
-        FPDF._putresources(self)
+        super()._putresources(self)
 ```
 
 Import the script and use pyFPDF as usual.
