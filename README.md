@@ -18,6 +18,7 @@ Some of the functions demonstrated in these scripts have already found their way
 * [Gradients](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#linear-radial-and-multi-color-gradients-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/gradiens)
 * [Stamp and Watermark](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#stamp-and-watermark-pdf-files-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/stamp_and_watermark)
 * [Adjust text to cell width](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#adjust-text-to-cell-width) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/cell_fit)
+* [Skew, shear, rotate text]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/skew_shear_rotate_text)
 
 # Alpha / Transparency for pyFPDF (fpdf2)
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
@@ -32,7 +33,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
 
-# Transform & Circular Text for pyFPDF (fpdf2)
+# Transform & Circular Text
 This script adds transfromation featurea ans support for circular text to pyFPDF. 
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
@@ -47,7 +48,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
 
-# Diagrams for pyFPDF (fpdf2)
+# Diagrams 
 Draw pie charts and bar diagrams with this script. 
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
@@ -61,7 +62,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/diagrams)
 
-# Embed Javascript in PDF for pyFPDF (fpdf2)
+# Embed Javascript in PDF 
 This script allows to embed JavaScript inside the PDF. The code is executed when the document is opened.
 
 The Acrobat JavaScript reference is available [here](https://opensource.adobe.com/dc-acrobat-sdk-docs/acrobatsdk/).
@@ -77,7 +78,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/javascript)
 
-# Rectangle with rounded corners for pyFPDF (fpdf2)
+# Rectangle with rounded corners 
 Draw rectangles with rounded corners
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
@@ -90,7 +91,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/roundedCorners)
 
-# Sectors of circle shapes for pyFPDF (fpdf2)
+# Sectors of circle shapes
 This script allows to draw segments of a circle. It can be used to render a pie chart.
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
@@ -104,7 +105,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/sector)
 
-# Star shape for pyFPDF (fpdf2)
+# Star shape
 This script draws a star.
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
@@ -117,7 +118,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/star)
 
-# Visibility feature for pyFPDF (fpdf2)
+# Visibility feature
 This script allows to restrict the rendering of some elements to screen or printout. This can be useful, for instance, to put a background image or color that will show on screen but won't print.
 
 **Note: this feature is not supported by all PDF viewers.** 
@@ -134,7 +135,7 @@ Script was tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/visibility)
 
-# Linear, radial and multi-color gradients for pyFPDF (fpdf2)
+# Linear, radial and multi-color gradients 
 Paints linear and radial gradients as well as multi-color gradients (coons patch meshes) inside a rectangle.
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
@@ -176,3 +177,17 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
 ## Get the code 
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/cell_fit)
+
+# Skew, shear and rotate text
+This extension allows to print rotated and sheared (i.e. distorted like in italic) text.
+
+Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
+
+## Example
+
+![Skew, shear and rotate text in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/skew_shear_rotate_text/demo.png)
+
+![PDF File](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/skew_shear_rotate_text/demo.pdf)
+
+## Get the code 
+[Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/skew_shear_rotate_text)
