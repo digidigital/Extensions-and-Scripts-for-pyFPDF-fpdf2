@@ -18,7 +18,7 @@ Some of the functions demonstrated in these scripts have already found their way
 * [Gradients](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#linear-radial-and-multi-color-gradients-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/gradiens)
 * [Stamp and Watermark](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#stamp-and-watermark-pdf-files-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/stamp_and_watermark)
 * [Adjust text to cell width](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#adjust-text-to-cell-width) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/cell_fit)
-* [Skew, shear, rotate text]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/skew_shear_rotate_text)
+* [Skew, shear, rotate text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#skew-shear-and-rotate-text) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/skew_shear_rotate_text)
 
 # Alpha / Transparency for pyFPDF (fpdf2)
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
@@ -150,7 +150,7 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/gradiens)
 
-# Stamp and Watermark PDF files (fpdf2)
+# Stamp and Watermark PDF files
 This script adds support for stamps (overlay) and watermarks (underlay) to PDF files by modifying the 'header()' and 'footer()' functions. 
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
