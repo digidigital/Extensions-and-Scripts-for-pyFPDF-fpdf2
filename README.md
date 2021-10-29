@@ -9,6 +9,7 @@ Some of the functions demonstrated in these scripts have already found their way
 **Scripts**
 * [Alpha / Transparency](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
 * [Masking images / Alpha channel](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#masking-images--alpha-channel) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/masking_image/)
+* [360 Degree Text]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/text_360)
 * [Transform & Circular Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
 * [Diagrams](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#diagrams-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/diagrams)
 * [Javascript support](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#embed-javascript-in-pdf-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/javascript)
@@ -48,6 +49,21 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 ## Get the code
 
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/masking_image/) 
+
+# 360 Degree Text
+This script adds 360 degree text. `B`, `U` and `I` are supported. 
+
+Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
+
+## Example
+
+![360 Degree Text](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/text_360/demo.png)
+
+![PDF File](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/text_360/demo.pdf)
+
+## Get the code
+
+[Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/text_360)
 
 # Transform & Circular Text
 This script adds transfromation featurea ans support for circular text to pyFPDF. 
