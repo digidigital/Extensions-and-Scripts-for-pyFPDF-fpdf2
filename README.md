@@ -21,6 +21,7 @@ Some of the functions demonstrated in these scripts have already found their way
 * [Stamp and Watermark](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#stamp-and-watermark-pdf-files-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/stamp_and_watermark)
 * [Adjust text to cell width](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#adjust-text-to-cell-width) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/cell_fit)
 * [Skew, shear, rotate text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#skew-shear-and-rotate-text) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/skew_shear_rotate_text)
+* [Sinus (Sine) Text]() -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/sinus_text)
 
 # Alpha / Transparency for pyFPDF (fpdf2)
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
@@ -223,3 +224,18 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
 ## Get the code 
 [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/skew_shear_rotate_text)
+
+# Sinus (Sine) Text
+This script adds wiggly text :) 
+
+Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
+
+## Example
+
+![Sinus Text in FPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/sinus_text/demo.png)
+
+![PDF File](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/sinus_text/demo.pdf)
+
+## Get the code
+
+[Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/sinus_text)
