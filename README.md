@@ -13,9 +13,9 @@ Some of the functions demonstrated in these scripts have already found their way
 * [Transform & Circular Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
 * [Diagrams](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#diagrams-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/diagrams)
 * [Javascript support](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#embed-javascript-in-pdf-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/javascript)
-* [Rectangles with rounded corners](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#rectangle-with-rounded-corners-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/roundedCorners)
+* [Rectangles with rounded corners](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#rectangle-with-rounded-corners-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/roundedCorners) -> [This is now available in fpdf2](https://py-pdf.github.io/fpdf2/Shapes.html)
 * [Draw segments of circles](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#sectors-of-circle-shapes-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/sector)
-* [Draw star shapes](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#star-shape-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/star)
+* [Draw star shapes](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#star-shape-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/star) -> [This is now available in fpdf2](https://py-pdf.github.io/fpdf2/Shapes.html)
 * [Restrict elements to be displayed on screen / printed only](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2#visibility-feature-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/visibility)
 * [Gradients](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#linear-radial-and-multi-color-gradients-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/gradiens)
 * [Stamp and Watermark](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#stamp-and-watermark-pdf-files-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/stamp_and_watermark)
@@ -118,6 +118,8 @@ Draw rectangles with rounded corners
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 
+OBSOLETE! [This is now available in fpdf2](https://py-pdf.github.io/fpdf2/Shapes.html)
+
 ## Example
 ![Draw a rectangle with rounded corners in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/roundedCorners/demo.jpg)
 
@@ -144,6 +146,8 @@ Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
 This script draws a star.
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
+
+OBSOLETE! [This is now available in fpdf2](https://py-pdf.github.io/fpdf2/Shapes.html)
 
 ## Example
 ![Star shapes](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/star/demo.jpg)
