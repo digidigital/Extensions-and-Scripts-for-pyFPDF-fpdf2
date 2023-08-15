@@ -7,7 +7,7 @@ My main goal was on translating the scripts 1:1 without a focus on "pythonic ele
 Some of the functions demonstrated in these scripts have already found their way into fpdf2. Whenever possible, you should use the alternatives implemented in [fpdf2](https://pyfpdf.github.io/fpdf2/index.html). On the other hand, some functions in the scripts may work (slightly) different and add value to your projects or adress edge cases. 
 
 **Scripts**
-* [Alpha / Transparency](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha)
+* [Alpha / Transparency](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#alpha--transparency-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/alpha) -> [This is now available in fpdf2](https://py-pdf.github.io/fpdf2/Transparency.html)
 * [Masking images / Alpha channel](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#masking-images--alpha-channel) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/raw/main/masking_image/)
 * [360 Degree Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#360-degree-text) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/text_360)
 * [Transform & Circular Text](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/blob/main/README.md#transform--circular-text-for-pyfpdf-fpdf2) -> [Code](https://github.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/tree/main/transform) 
@@ -27,6 +27,8 @@ Some of the functions demonstrated in these scripts have already found their way
 This script adds transparency support to pyFPDF. You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images). 
 
 Tested with fpdf2 2.4.5, Pillow 8.3.1, Python 3.8.10
+
+OBSOLETE! [This is now available in fpdf2](https://py-pdf.github.io/fpdf2/Transparency.html)
 
 ## Example
 ![Transparent text, images and drawings in pyFPDF](https://raw.githubusercontent.com/digidigital/Extensions-and-Scripts-for-pyFPDF-fpdf2/main/alpha/result.jpg)
