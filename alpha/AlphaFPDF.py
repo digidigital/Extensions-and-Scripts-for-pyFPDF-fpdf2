@@ -32,7 +32,7 @@ class AlphaFPDF (FPDF):
     def _enddoc(self):
         if len(self._extgstates) > 0 and float(self.pdf_version) < float(1.4):
             self.pdf_version='1.4'
-        super()._enddoc(self)
+        super()._enddoc()
     
     def _putextgstates(self):
         for i in range (1, len(self._extgstates)+1):
