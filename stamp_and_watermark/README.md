@@ -9,7 +9,7 @@ This script adds support for stamps (overlay) and watermarks (underlay) to PDF f
 
 ## Usage
 
-For newer fpdf2 versions with tansparency (e.g. 2.7.5) just put PDFMark.py in your project directory
+For newer fpdf2 versions with tansparency (e.g. 2.7.5) just put PDFMark2.py in your project directory
 
 ```python
 ##!/usr/bin/env python3
@@ -57,7 +57,7 @@ class PDFMark(FPDF):
         self._mark(self._stamp_data)
 ```
 
-For older fpdf2-versions without transparency just PDFMark.py and AlphaFPDF.py in your project directory
+For older fpdf2-versions without transparency put PDFMark.py and AlphaFPDF.py in your project directory
 
 ```python
 ##!/usr/bin/env python3
@@ -140,7 +140,9 @@ All values except 'text' are optional
 ```python
 #!/usr/bin/env python3
 
-from PDFMark import PDFMark as FPDF 
+from PDFMark2 import PDFMark as FPDF
+#change "PDFMark2 to PDFMark for older versions of fpdf2! 
+#from PDFMark import PDFMark as FPDF 
 from random import randint
 
 #some random text to fill the pages 
