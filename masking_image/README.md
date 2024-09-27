@@ -109,7 +109,7 @@ class PDFImageMask(FPDF):
         elif h == 0:
             h = w * info["h"] / info["w"]
 
-        # workarount fpdf 2.4.5 in pip seems to be different from git version ???
+        # workaround fpdf 2.4.5 in pip seems to be different from git version ???
         try:
             if self.oversized_images and info["usages"] == 1:
                 info = self._downscale_image(name, img, info, w, h)
